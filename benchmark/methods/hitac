@@ -49,7 +49,7 @@ qiime hitac classify \
   --verbose
 
 qiime tools export \
-	classifier_output.qza \
+	--input-path classifier_output.qza \
 	--output-path output_dir
 
 cp -v output_dir/taxonomy.tsv $raw
