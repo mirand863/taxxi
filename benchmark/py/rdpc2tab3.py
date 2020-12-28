@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Like rdpc2tab2.py except outputs c:Name instead of Name.
 
