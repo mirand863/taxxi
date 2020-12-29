@@ -46,7 +46,7 @@ qiime hitac classify \
   --i-reference-taxonomy db-tax.qza \
   --i-query q-seqs.qza \
   --o-classification classifier_output.qza \
-  --verbose
+#  --verbose
 
 qiime tools export \
 	--input-path classifier_output.qza \
